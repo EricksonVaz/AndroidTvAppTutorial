@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="?attr/guidanceContainerStyle"
+        android:id="@+id/relative_layout">
+
+        <ImageView
+            android:id="@+id/guidance_icon"
+            style="@style/Widget.Example.Leanback.SecondStepGuidanceIconStyle"
+            android:layout_width="188dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/guidance_title"
+            android:textColor="@color/guidance_title"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            style="?attr/guidanceTitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/guidance_breadcrumb"
+            android:textColor="@color/guidance_breadcrumb"
+            android:textAlignment="center"
+            android:gravity="center"
+            style="?attr/guidanceBreadcrumbStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/guidance_description"
+            android:textColor="@color/guidance_description"
+            style="?attr/guidanceDescriptionStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</FrameLayout>

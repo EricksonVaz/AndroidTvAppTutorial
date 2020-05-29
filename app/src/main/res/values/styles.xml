@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/Theme.Leanback" />
+    <style name="Widget.Example.Leanback.GuidanceIconStyle" parent="Widget.Leanback.GuidanceIconStyle">
+        <item name="android:background">@color/icon_background</item>
+    </style>
+</resources>
